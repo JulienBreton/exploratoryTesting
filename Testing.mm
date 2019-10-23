@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1306264337" CREATED="1568981266878" MODIFIED="1569403682849"><richcontent TYPE="NODE">
 
 <html>
@@ -111,7 +111,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -161,8 +160,23 @@
 </richcontent>
 <font SIZE="12"/>
 </node>
-<node TEXT="We follow hunches" ID="ID_1411332472" CREATED="1569244260566" MODIFIED="1569244267856"/>
+<node TEXT="We follow hunches" ID="ID_1411332472" CREATED="1569244260566" MODIFIED="1571831995813"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://blog.usejournal.com/what-is-exploratory-testing-the-programmer-edition-881765411f2c
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="We minimize the time spent on documentation" ID="ID_1444977087" CREATED="1569244351120" MODIFIED="1569244356175"/>
+<node TEXT="Learning needs to change what you are doing." ID="ID_713633188" CREATED="1571831948962" MODIFIED="1571831950283"/>
 </node>
 <node TEXT="Testing in Sessions" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_10631513" CREATED="1569247896846" MODIFIED="1569403018820">
 <node TEXT="A session is an uninterrupted block of reviewable,&#xa;chartered test effort." ID="ID_1116962280" CREATED="1569250289189" MODIFIED="1569250315036">
@@ -183,6 +197,26 @@
 </node>
 </node>
 </node>
+<node TEXT="What we know?" ID="ID_1914803440" CREATED="1571842380097" MODIFIED="1571842776574"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://techblog.appnexus.com/exploratory-testing-et-what-when-why-and-how-a29a879cb20e
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Known/Known = specifications" ID="ID_1203199709" CREATED="1571842397954" MODIFIED="1571842601223"/>
+<node TEXT="Unknown/Known = we make our own expectations and assumptions." ID="ID_1284686336" CREATED="1571842472336" MODIFIED="1571842604996"/>
+<node TEXT="Known/Unknown = we need to ask questions to change to Known/Known" ID="ID_1088684424" CREATED="1571842620262" MODIFIED="1571842709211"/>
+<node TEXT="Unknown/Unknown" ID="ID_1575478096" CREATED="1571842748777" MODIFIED="1571842764042"/>
+</node>
+<node TEXT="Exploratory testing should always be time-boxed. Do not spend a lot of time in Known parts, if nothing new comes up." ID="ID_1281770009" CREATED="1571843869731" MODIFIED="1571843872371"/>
 </node>
 <node TEXT="Testing is the process of evaluating a product by learning about it through exploration and experimentation, which includes: questioning, study, modeling, observation and inference, output checking, etc." LOCALIZED_STYLE_REF="default" POSITION="right" ID="ID_752220745" CREATED="1569403758085" MODIFIED="1569403841978" HGAP_QUANTITY="-174.24999438971298 pt" VSHIFT_QUANTITY="-210.74999371916076 pt">
 <edge COLOR="#007c7c"/>
@@ -198,8 +232,14 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="Scripted testing" POSITION="right" ID="ID_52706033" CREATED="1571834084589" MODIFIED="1571834090615">
+<edge COLOR="#7c7c00"/>
+<node TEXT="While with exploratory testing we believe that premature writing of instructions hinders intellectual processes" ID="ID_87458252" CREATED="1571834096964" MODIFIED="1571834099447"/>
+</node>
+<node TEXT="Spend time whith your application, your APIs, your environments" POSITION="left" ID="ID_713774376" CREATED="1571834540432" MODIFIED="1571834606017">
+<edge COLOR="#ff0000"/>
 </node>
 </node>
 </map>
