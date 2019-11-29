@@ -64,7 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
 <node LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1306264337" CREATED="1568981266878" MODIFIED="1569403682849"><richcontent TYPE="NODE">
 
 <html>
@@ -126,6 +126,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="Exploring a city without a map. But using past experience to guide you. Or information you received from others about places to visit" ID="ID_113536929" CREATED="1575015963333" MODIFIED="1575015965566"/>
 </node>
 <node TEXT="What we can do?" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1120618084" CREATED="1569244291942" MODIFIED="1569403015767">
 <node LOCALIZED_STYLE_REF="default" ID="ID_924784097" CREATED="1569227298090" MODIFIED="1569403892003"><richcontent TYPE="NODE">
@@ -172,7 +173,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="We minimize the time spent on documentation" ID="ID_1444977087" CREATED="1569244351120" MODIFIED="1569244356175"/>
@@ -209,7 +209,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Known/Known = specifications" ID="ID_1203199709" CREATED="1571842397954" MODIFIED="1571842601223"/>
 <node TEXT="Unknown/Known = we make our own expectations and assumptions." ID="ID_1284686336" CREATED="1571842472336" MODIFIED="1571842604996"/>
@@ -240,6 +239,34 @@
 </node>
 <node TEXT="Spend time whith your application, your APIs, your environments" POSITION="left" ID="ID_713774376" CREATED="1571834540432" MODIFIED="1571834606017">
 <edge COLOR="#ff0000"/>
+</node>
+<node POSITION="left" ID="ID_332987539" CREATED="1571901087795" MODIFIED="1571901087798"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span http-equiv="content-type" content="text/html; charset=utf-8" class="css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0">You don&#8217;t know how to test something until you&#8217;ve tried to test it! </span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1725496710" CREATED="1571901169929" MODIFIED="1571901169931">
+<edge COLOR="#ff00ff"/>
+<node ID="ID_1809738583" CREATED="1571901175674" MODIFIED="1571901175674"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span http-equiv="content-type" content="text/html; charset=utf-8" class="css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0">Trying to write test cases or develop automated checks before we&#8217;ve got good models and understanding of the product is very risky. Note, though, that programmers are much better positioned to develop unit checks: by necessity, developers must build models to write the code.</span>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
